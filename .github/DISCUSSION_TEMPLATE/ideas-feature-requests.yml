@@ -1,0 +1,57 @@
+  title: "[Feature] "
+  labels: []
+  body:
+    - type: markdown
+      attributes:
+        value: |
+          Thanks for suggesting a feature! Help us understand your idea.
+
+    - type: textarea
+      id: problem
+      attributes:
+        label: What problem does this solve?
+        description: Describe the frustration or limitation you're experiencing.
+        placeholder: I often find myself wanting to...
+      validations:
+        required: true
+
+    - type: textarea
+      id: solution
+      attributes:
+        label: Describe your ideal solution
+        description: What would you like CodexScribe to do?
+      validations:
+        required: true
+
+    - type: textarea
+      id: alternatives
+      attributes:
+        label: Alternatives you've considered
+        description: Any workarounds you're currently using?
+      validations:
+        required: false
+
+    - type: dropdown
+      id: area
+      attributes:
+        label: Which area of the app?
+        options:
+          - Writer / Editor
+          - Timeline
+          - Card View
+          - Dossier (Characters)
+          - World (Locations, Events, Misc)
+          - Web View
+          - Dashboard
+          - Settings
+          - Other
+      validations:
+        required: true
+
+    - type: textarea
+      id: context
+      attributes:
+        label: Additional context
+        description: Screenshots, mockups, or examples from other tools are welcome.
+      validations:
+        required: false
